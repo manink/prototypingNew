@@ -15,6 +15,9 @@ public class TriggerScript : MonoBehaviour {
 
     //here our map covers that we disable to reveal the map
     public GameObject hider1 = null;
+    public GameObject hider2 = null;
+    public GameObject hider3 = null;
+    public GameObject hider4 = null;
 
     // Use this for initialization
     void Start () {
@@ -73,7 +76,7 @@ public class TriggerScript : MonoBehaviour {
                 pathOneRevealed = true;
                 Debug.Log("PATH ONE REVEALED");
                 //hider1.GetComponent<Plane>();
-                hider1.SetActive(false);
+                hider4.SetActive(false);
             }
         }
 
