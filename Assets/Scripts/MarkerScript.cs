@@ -17,5 +17,6 @@ public class MarkerScript : MonoBehaviour {
     {
         //this is where we mark our environment
         this.GetComponent<Renderer>().material.color = new Color(1.0f, 0.0f, 0.0f);
+        print("Object marked!");
     }
 }
